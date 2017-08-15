@@ -1,15 +1,29 @@
 // Variables
 
-$rh-blue: #FC3939;
-
-
+$rh-blue: #302828;
 
 
 body {
-	padding: 20px;
-	background-color: #201F1F;
-	color: $rh-blue;
-	
+	height: 100vh;
+	width: 100vw;
+	background-color: $rh-blue;
+}
 
-	
+.wrapper {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	.content {
+		align-self: center;
+		height: 60%;
+		width: 60%;
+
+	}
+
+	.svg {
+		height: 100%;
+		width: 100%;
+	}
 }
